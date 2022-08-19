@@ -2,11 +2,11 @@
 Library  SeleniumLibrary
 
 *** Keywords ***
- Put_information
+ Put_information with ${comment_a} on comment section
         select from list by label       xpath=//*[@id="combo_facility"]                                                             Hongkong CURA Healthcare Center
         click element                   xpath=//*[@id="chk_hospotal_readmission"]
         click element                   xpath=//*[@id="radio_program_medicaid"]
-        input text                      xpath=//*[@id="txt_comment"]                                                                testing2
+        input text                      xpath=//*[@id="txt_comment"]                                                                ${comment_a}
 
 Put_Date
     click element                   xpath=//section[@id="appointment"]/div/div/form/div[4]/div/div/div/span
