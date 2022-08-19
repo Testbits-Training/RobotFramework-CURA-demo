@@ -20,6 +20,7 @@ Robot lacks support for if-else, nested loops, which are required when the code 
 1. Install Python 3.7.8 (follow pdf for more detail):
    https://www.python.org/ftp/python/3.7.8/python-3.7.8-amd64.exe
 2. Install Robot Framework on command prompt:
+
    ``` pip install Robotframework ```
 3. Install Wxpython version 4.0.7 on command prompt:
    `pip install wxpython==4.0.7`
