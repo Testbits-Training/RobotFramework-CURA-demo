@@ -16,3 +16,22 @@ Put_Date
 Submit_n_validation
     click element    xpath=//*[@id="btn-book-appointment"]
     element text should be    xpath=//*[@id="summary"]/div/div/div[1]/h2    Appointment Confirmation
+
+Put_comment_agg1 ${Job}
+    select from list by label    xpath=//*[@id="combo_facility"]    Hongkong CURA Healthcare Center
+    click element    xpath=//*[@id="chk_hospotal_readmission"]
+    click element    xpath=//*[@id="radio_program_medicaid"]
+    input text    xpath=//*[@id="txt_comment"]    ${Job}
+
+Put_comment_agg2 "${Job}"
+    select from list by label    xpath=//*[@id="combo_facility"]    Hongkong CURA Healthcare Center
+    click element    xpath=//*[@id="chk_hospotal_readmission"]
+    click element    xpath=//*[@id="radio_program_medicaid"]
+    input text    xpath=//*[@id="txt_comment"]    ${Job}
+
+Put_comment_agg3
+    [Arguments]    ${Job}
+    select from list by label    xpath=//*[@id="combo_facility"]    Hongkong CURA Healthcare Center
+    click element    xpath=//*[@id="chk_hospotal_readmission"]
+    click element    xpath=//*[@id="radio_program_medicaid"]
+    input text    xpath=//*[@id="txt_comment"]    ${Job}
