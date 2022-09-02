@@ -19,9 +19,6 @@ jobs:
     - name: Install Robot Framework Library
       run: |
         pip install robotframework
-    - name: Install WXPython
-      run: |
-        pip install wxpython==4.0.7
     - name: Install Selenium Library
       run: |
         pip install --upgrade robotframework-seleniumlibrary==5.1.1
