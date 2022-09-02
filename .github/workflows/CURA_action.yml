@@ -4,13 +4,7 @@
 name: CURA_robotframework
 
 on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-
-permissions:
-  contents: read
+  workflow_dispatch
 
 jobs:
   build:
