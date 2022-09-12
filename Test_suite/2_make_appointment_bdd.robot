@@ -10,7 +10,7 @@ ${comment}        comment_agg1
 
 *** Test Cases ***
 Make Appoiment
-    When Put_information on comment section
+    When Put_information with comment
     And Put_Date
     Then Submit_n_validation
 
