@@ -8,7 +8,7 @@ Resource          ../Test_resources/make_appoinment_r.robot
 Library           DataDriver    list_appoinment.xlsx    sheet_name=Sheet1
 
 *** Test Cases ***
-appoinment
+appoinment_dd
     ${facility2}    ${comment2}
 
 *** Keywords ***
