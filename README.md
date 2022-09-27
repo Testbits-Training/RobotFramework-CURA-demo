@@ -72,3 +72,5 @@ If you don not want to use RIDE, you can use any Python IDE. For example, Pychar
 2. First testing tutorial:
 
 - https://drive.google.com/file/d/15Jmh_H6eVjceUPJOgx1At7xocYJwLWCS/view?usp=sharing
+
+test2
