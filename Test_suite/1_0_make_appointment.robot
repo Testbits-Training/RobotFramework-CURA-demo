@@ -18,4 +18,4 @@ Make Appoiment
     click element    xpath=//*[@id="btn-book-appointment"]
     Sleep    5
     element text should be    xpath=//*[@id="summary"]/div/div/div[1]/h2    Appointment Confirmation
-    #Terminal: robot Test_suite/1_make_appoiment.robot
+    #Terminal: robot -d ReportOutput -r 1_0_testcase.html Test_suite/1_0_make_appointment.robot
