@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221003 15:29:09.507" rpa="false" schemaversion="3">
+<suite id="s1" name="RobotFramework-CURA-demo" source="D:\Syazwan\GitHub\RobotFramework-CURA-demo">
+<suite id="s1-s1" name="Test suite" source="D:\Syazwan\GitHub\RobotFramework-CURA-demo\Test_suite">
+<suite id="s1-s1-s1" name="1 0 Make Appointment" source="D:\Syazwan\GitHub\RobotFramework-CURA-demo\Test_suite\1_0_make_appointment.robot">
+<test id="s1-s1-s1-t1" name="Make Appoiment" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://katalon-demo-cura.herokuapp.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221003 15:29:09.712" level="INFO">Opening browser 'chrome' to base url 'https://katalon-demo-cura.herokuapp.com/'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20221003 15:29:12.602" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20221003 15:29:12.601" endtime="20221003 15:29:12.604"/>
+</kw>
+<msg timestamp="20221003 15:29:12.605" level="FAIL">WebDriverException: Message: unknown error: cannot find Chrome binary
+</msg>
+<status status="FAIL" starttime="20221003 15:29:09.711" endtime="20221003 15:29:12.643"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="btn-make-appointment"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.644" endtime="20221003 15:29:12.644"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="txt-username"]</arg>
+<arg>John Doe</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.645" endtime="20221003 15:29:12.645"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="txt-password"]</arg>
+<arg>ThisIsNotAPassword</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.646" endtime="20221003 15:29:12.646"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="btn-login"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.648" endtime="20221003 15:29:12.648"/>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>xpath=//*[@id="combo_facility"]</arg>
+<arg>Hongkong CURA Healthcare Center</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.649" endtime="20221003 15:29:12.649"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="chk_hospotal_readmission"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.650" endtime="20221003 15:29:12.650"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="radio_program_medicaid"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.651" endtime="20221003 15:29:12.651"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//section[@id="appointment"]/div/div/form/div[4]/div/div/div/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.652" endtime="20221003 15:29:12.652"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=(.//*[normalize-space(text()) and normalize-space(.)="Sa"])[1]/following::td[25]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.653" endtime="20221003 15:29:12.653"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//section[@id="appointment"]/div/div/form/div[4]/div/div/div/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.653" endtime="20221003 15:29:12.653"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="txt_comment"]</arg>
+<arg>testing2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.654" endtime="20221003 15:29:12.654"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="btn-book-appointment"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.655" endtime="20221003 15:29:12.655"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.655" endtime="20221003 15:29:12.655"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>xpath=//*[@id="summary"]/div/div/div[1]/h2</arg>
+<arg>Appointment Confirmation</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="NOT RUN" starttime="20221003 15:29:12.656" endtime="20221003 15:29:12.656"/>
+</kw>
+<status status="FAIL" starttime="20221003 15:29:09.710" endtime="20221003 15:29:12.657">WebDriverException: Message: unknown error: cannot find Chrome binary
+</status>
+</test>
+<status status="FAIL" starttime="20221003 15:29:09.544" endtime="20221003 15:29:12.660"/>
+</suite>
+<status status="FAIL" starttime="20221003 15:29:09.541" endtime="20221003 15:29:12.663"/>
+</suite>
+<status status="FAIL" starttime="20221003 15:29:09.520" endtime="20221003 15:29:12.668"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="RobotFramework-CURA-demo">RobotFramework-CURA-demo</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Test suite">RobotFramework-CURA-demo.Test suite</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="1 0 Make Appointment">RobotFramework-CURA-demo.Test suite.1 0 Make Appointment</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

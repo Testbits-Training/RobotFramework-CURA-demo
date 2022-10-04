@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221003 09:17:13.618" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221003 16:13:24.886" rpa="false" schemaversion="3">
 <suite id="s1" name="1 0 Make Appointment" source="D:\Syazwan\GitHub\RobotFramework-CURA-demo\Test_suite\1_0_make_appointment.robot">
 <test id="s1-t1" name="Make Appoiment" line="5">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>https://katalon-demo-cura.herokuapp.com/</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20221003 09:17:13.826" level="INFO">Opening browser 'chrome' to base url 'https://katalon-demo-cura.herokuapp.com/'.</msg>
-<status status="PASS" starttime="20221003 09:17:13.826" endtime="20221003 09:17:19.233"/>
+<msg timestamp="20221003 16:13:25.115" level="INFO">Opening browser 'chrome' to base url 'https://katalon-demo-cura.herokuapp.com/'.</msg>
+<status status="PASS" starttime="20221003 16:13:25.115" endtime="20221003 16:13:29.892"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath=//*[@id="btn-make-appointment"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20221003 09:17:19.235" level="INFO">Clicking element 'xpath=//*[@id="btn-make-appointment"]'.</msg>
-<status status="PASS" starttime="20221003 09:17:19.234" endtime="20221003 09:17:19.784"/>
+<msg timestamp="20221003 16:13:29.893" level="INFO">Clicking element 'xpath=//*[@id="btn-make-appointment"]'.</msg>
+<status status="PASS" starttime="20221003 16:13:29.893" endtime="20221003 16:13:30.441"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath=//*[@id="txt-username"]</arg>
 <arg>John Doe</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20221003 09:17:19.785" level="INFO">Typing text 'John Doe' into text field 'xpath=//*[@id="txt-username"]'.</msg>
-<status status="PASS" starttime="20221003 09:17:19.784" endtime="20221003 09:17:19.854"/>
+<msg timestamp="20221003 16:13:30.443" level="INFO">Typing text 'John Doe' into text field 'xpath=//*[@id="txt-username"]'.</msg>
+<status status="PASS" starttime="20221003 16:13:30.442" endtime="20221003 16:13:30.518"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath=//*[@id="txt-password"]</arg>
 <arg>ThisIsNotAPassword</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20221003 09:17:19.855" level="INFO">Typing text 'ThisIsNotAPassword' into text field 'xpath=//*[@id="txt-password"]'.</msg>
-<status status="PASS" starttime="20221003 09:17:19.855" endtime="20221003 09:17:19.925"/>
+<msg timestamp="20221003 16:13:30.518" level="INFO">Typing text 'ThisIsNotAPassword' into text field 'xpath=//*[@id="txt-password"]'.</msg>
+<status status="PASS" starttime="20221003 16:13:30.518" endtime="20221003 16:13:30.582"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath=//*[@id="btn-login"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20221003 09:17:19.926" level="INFO">Clicking element 'xpath=//*[@id="btn-login"]'.</msg>
-<status status="PASS" starttime="20221003 09:17:19.926" endtime="20221003 09:17:20.838"/>
+<msg timestamp="20221003 16:13:30.583" level="INFO">Clicking element 'xpath=//*[@id="btn-login"]'.</msg>
+<status status="PASS" starttime="20221003 16:13:30.582" endtime="20221003 16:13:31.234"/>
 </kw>
 <kw name="Select From List By Label" library="SeleniumLibrary">
 <arg>xpath=//*[@id="combo_facility"]</arg>
 <arg>Hongkong CURA Healthcare Center</arg>
 <doc>Selects options from selection list ``locator`` by ``labels``.</doc>
-<msg timestamp="20221003 09:17:20.839" level="INFO">Selecting options from selection list 'xpath=//*[@id="combo_facility"]' by label Hongkong CURA Healthcare Center.</msg>
-<status status="PASS" starttime="20221003 09:17:20.839" endtime="20221003 09:17:20.897"/>
+<msg timestamp="20221003 16:13:31.235" level="INFO">Selecting options from selection list 'xpath=//*[@id="combo_facility"]' by label Hongkong CURA Healthcare Center.</msg>
+<status status="PASS" starttime="20221003 16:13:31.235" endtime="20221003 16:13:31.308"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath=//*[@id="chk_hospotal_readmission"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20221003 09:17:20.898" level="INFO">Clicking element 'xpath=//*[@id="chk_hospotal_readmission"]'.</msg>
-<status status="PASS" starttime="20221003 09:17:20.898" endtime="20221003 09:17:20.942"/>
+<msg timestamp="20221003 16:13:31.308" level="INFO">Clicking element 'xpath=//*[@id="chk_hospotal_readmission"]'.</msg>
+<status status="PASS" starttime="20221003 16:13:31.308" endtime="20221003 16:13:31.350"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath=//*[@id="radio_program_medicaid"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20221003 09:17:20.943" level="INFO">Clicking element 'xpath=//*[@id="radio_program_medicaid"]'.</msg>
-<status status="PASS" starttime="20221003 09:17:20.942" endtime="20221003 09:17:20.984"/>
+<msg timestamp="20221003 16:13:31.351" level="INFO">Clicking element 'xpath=//*[@id="radio_program_medicaid"]'.</msg>
+<status status="PASS" starttime="20221003 16:13:31.351" endtime="20221003 16:13:31.389"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath=//section[@id="appointment"]/div/div/form/div[4]/div/div/div/span</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20221003 09:17:20.985" level="INFO">Clicking element 'xpath=//section[@id="appointment"]/div/div/form/div[4]/div/div/div/span'.</msg>
-<status status="PASS" starttime="20221003 09:17:20.985" endtime="20221003 09:17:21.029"/>
+<msg timestamp="20221003 16:13:31.390" level="INFO">Clicking element 'xpath=//section[@id="appointment"]/div/div/form/div[4]/div/div/div/span'.</msg>
+<status status="PASS" starttime="20221003 16:13:31.389" endtime="20221003 16:13:31.437"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath=(.//*[normalize-space(text()) and normalize-space(.)="Sa"])[1]/following::td[25]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20221003 09:17:21.030" level="INFO">Clicking element 'xpath=(.//*[normalize-space(text()) and normalize-space(.)="Sa"])[1]/following::td[25]'.</msg>
-<status status="PASS" starttime="20221003 09:17:21.029" endtime="20221003 09:17:21.070"/>
+<msg timestamp="20221003 16:13:31.438" level="INFO">Clicking element 'xpath=(.//*[normalize-space(text()) and normalize-space(.)="Sa"])[1]/following::td[25]'.</msg>
+<status status="PASS" starttime="20221003 16:13:31.438" endtime="20221003 16:13:31.477"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath=//section[@id="appointment"]/div/div/form/div[4]/div/div/div/span</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20221003 09:17:21.071" level="INFO">Clicking element 'xpath=//section[@id="appointment"]/div/div/form/div[4]/div/div/div/span'.</msg>
-<status status="PASS" starttime="20221003 09:17:21.071" endtime="20221003 09:17:21.098"/>
+<msg timestamp="20221003 16:13:31.478" level="INFO">Clicking element 'xpath=//section[@id="appointment"]/div/div/form/div[4]/div/div/div/span'.</msg>
+<status status="PASS" starttime="20221003 16:13:31.477" endtime="20221003 16:13:31.505"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath=//*[@id="txt_comment"]</arg>
 <arg>testing2</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20221003 09:17:21.099" level="INFO">Typing text 'testing2' into text field 'xpath=//*[@id="txt_comment"]'.</msg>
-<status status="PASS" starttime="20221003 09:17:21.099" endtime="20221003 09:17:21.157"/>
+<msg timestamp="20221003 16:13:31.506" level="INFO">Typing text 'testing2' into text field 'xpath=//*[@id="txt_comment"]'.</msg>
+<status status="PASS" starttime="20221003 16:13:31.505" endtime="20221003 16:13:31.574"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath=//*[@id="btn-book-appointment"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20221003 09:17:21.158" level="INFO">Clicking element 'xpath=//*[@id="btn-book-appointment"]'.</msg>
-<status status="PASS" starttime="20221003 09:17:21.158" endtime="20221003 09:17:21.520"/>
+<msg timestamp="20221003 16:13:31.574" level="INFO">Clicking element 'xpath=//*[@id="btn-book-appointment"]'.</msg>
+<status status="PASS" starttime="20221003 16:13:31.574" endtime="20221003 16:13:31.915"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20221003 09:17:26.523" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20221003 09:17:21.520" endtime="20221003 09:17:26.523"/>
+<msg timestamp="20221003 16:13:36.932" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20221003 16:13:31.916" endtime="20221003 16:13:36.932"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>xpath=//*[@id="summary"]/div/div/div[1]/h2</arg>
 <arg>Appointment Confirmation</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20221003 09:17:26.525" level="INFO">Verifying element 'xpath=//*[@id="summary"]/div/div/div[1]/h2' contains exact text 'Appointment Confirmation'.</msg>
-<status status="PASS" starttime="20221003 09:17:26.524" endtime="20221003 09:17:26.550"/>
+<msg timestamp="20221003 16:13:36.932" level="INFO">Verifying element 'xpath=//*[@id="summary"]/div/div/div[1]/h2' contains exact text 'Appointment Confirmation'.</msg>
+<status status="PASS" starttime="20221003 16:13:36.932" endtime="20221003 16:13:36.963"/>
 </kw>
-<status status="PASS" starttime="20221003 09:17:13.813" endtime="20221003 09:17:26.550"/>
+<status status="PASS" starttime="20221003 16:13:25.115" endtime="20221003 16:13:36.963"/>
 </test>
-<status status="PASS" starttime="20221003 09:17:13.618" endtime="20221003 09:17:26.550"/>
+<status status="PASS" starttime="20221003 16:13:24.886" endtime="20221003 16:13:36.963"/>
 </suite>
 <statistics>
 <total>

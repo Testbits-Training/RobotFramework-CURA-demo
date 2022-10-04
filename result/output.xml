@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221003 16:45:07.901" rpa="false" schemaversion="3">
+<suite id="s1" name="Testing Hai" source="D:\Syazwan\GitHub\RobotFramework-CURA-demo\testing hai\testing hai.robot">
+<test id="s1-t1" name="Open_n_login" line="6">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://katalon-demo-cura.herokuapp.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221003 16:45:08.056" level="INFO">Opening browser 'chrome' to base url 'https://katalon-demo-cura.herokuapp.com/'.</msg>
+<status status="PASS" starttime="20221003 16:45:08.056" endtime="20221003 16:45:12.693"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="btn-make-appointment"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221003 16:45:12.694" level="INFO">Clicking element 'xpath=//*[@id="btn-make-appointment"]'.</msg>
+<status status="PASS" starttime="20221003 16:45:12.693" endtime="20221003 16:45:13.219"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="txt-username"]</arg>
+<arg>John Doe</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221003 16:45:13.220" level="INFO">Typing text 'John Doe' into text field 'xpath=//*[@id="txt-username"]'.</msg>
+<status status="PASS" starttime="20221003 16:45:13.220" endtime="20221003 16:45:13.291"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="txt-password"]</arg>
+<arg>ThisIsNotAPassword</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221003 16:45:13.291" level="INFO">Typing text 'ThisIsNotAPassword' into text field 'xpath=//*[@id="txt-password"]'.</msg>
+<status status="PASS" starttime="20221003 16:45:13.291" endtime="20221003 16:45:13.354"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="btn-login"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221003 16:45:13.354" level="INFO">Clicking element 'xpath=//*[@id="btn-login"]'.</msg>
+<status status="PASS" starttime="20221003 16:45:13.354" endtime="20221003 16:45:13.979"/>
+</kw>
+<status status="PASS" starttime="20221003 16:45:08.055" endtime="20221003 16:45:13.980"/>
+</test>
+<status status="PASS" starttime="20221003 16:45:07.902" endtime="20221003 16:45:13.981"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Testing Hai">Testing Hai</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
